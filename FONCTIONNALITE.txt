@@ -1,0 +1,27 @@
+Functionality
+
+
+Une application web qui permet aux dev de publier leur apps.
+
+Functionality pour l'admin:
+*moderation des apps->retirer une app, valider une app
+*moderation des mise a jour->
+*validation des mise a juor
+*statistique des depots
+*statistique des telechargements
+*agir comme tout user
+*moderation des commentaires->retirer un commentaire, averir l'auteur,...
+*mederation des comptes utilisateurs->banir un compte, suspendre un compte,...
+
+Functionalite dev:
+*Publication d'app
+*reception des commentaires->chaque app publier est associer a un commentaire
+*Gestion des app pubier->retirer, modifier,mise a jour,...
+*Greer son compte->..
+
+Fonctionnalite user:
+*telecharger app
+*commenter
+
+Fonctionnalite membre
+Greer son compte

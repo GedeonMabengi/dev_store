@@ -1,0 +1,76 @@
+*{padding: 0px;margin: 0px;font-family: Open Sans,sans-serif,Monteserrat;}a{text-decoration: none;}
+
+body{
+    background: radial-gradient(rgb(205,193,255),rgb(165,148,249),rgb(115,113,252));
+}
+
+/* Le container */
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* border: red 2px solid; */
+    box-sizing: border-box;
+}
+
+/* La banniere */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/banner.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.banner > .text-banner{
+    /* border: rgb(0, 251, 255) 2px solid; */
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: 635;
+    color: #274156;
+    text-shadow: .075em .075em 0 #ef233c;
+}
+
+.part-button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* background: linear-gradient(rgb(13,33,161), rgb(1,22,56)); */
+}
+
+.part-button > h1{
+    margin: 3%;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+
+.under-h1{
+    height: 0.5rem;
+    width: 100%;
+    background: rgb(1, 22, 56);
+    border-radius: 5em;
+}
+
+.part-button > a{
+    display: block;
+    margin: 5%;
+}
+
+.part-button > a > div{
+    text-align: center;
+    border: 5px solid rgb(238,198,67);
+    width: 300px;
+    background-color: rgb(238, 240, 242);
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5em;
+    color: rgb(20, 20, 20);
+    font-weight: 550;
+    font-size: large;
+}
